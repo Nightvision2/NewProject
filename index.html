@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Osvit predavanja</title>
+
+    <meta charset="utf-8" />
+    <meta name="description" content="Tečaj web programiranja" />
+    <meta name="author" content="Osvit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+
+  <body onload="getJSON('./todo.json', renderTodoCards)">
+    <main class="wrapper">
+      <div class="title">
+        <h1>My To-Do List</h1>
+        <a class="a" href="#">CLEAR ALL</a>
+      </div>
+
+      <div class="adding">
+        <input class="newtask" type="text" placeholder="Add new task here" />
+        <button class="addbutton">ADD</button>
+      </div>
+      <div class="elementi">
+        Learn Javascript<input type="time" placeholder="Date" />
+      </div>
+      <div class="elementi">Don't forget other stuff<input type="time" placeholder="Date" /></div>
+      <div class="elementi">Make it responsive<input type="time" placeholder="Date" /></div>
+      <div class="elementi">Complete this task<input type="time" placeholder="Date" /></div>
+      <div class="elementi">Forget about this<input type="time" placeholder="Date" /></div>
+      <div class="elementi">Complete this as well<input type="time" placeholder="Date" /></div>
+    </main>
+  </body>
+</html>

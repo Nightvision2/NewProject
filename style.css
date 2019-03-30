@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20%;
+    padding-top: 10px;
+    background-color: white;
+ }
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
+}
+.adding {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+}
+
+.addbutton {
+    border: solid lightgrey;
+    border-radius: 10px;
+    margin: 10px;
+}
+.newtask {
+    border: solid lightgrey; 
+     border-radius: 10px;
+     margin: 10px; 
+}
+.a {
+    text-decoration: none;
+    color:red;
+}
+
+.elementi {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: solid lightgrey;
+    border-radius: 10px;
+    margin: 10px;
+}
